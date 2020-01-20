@@ -1,0 +1,151 @@
+body {
+
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+
+
+}
+
+div {
+  background-color: #EAF6F6;
+  padding: 2%;
+  margin: 20px;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: WHITE;
+}
+
+h1 {
+  font-size: 5.62rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color:  #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:  #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.intro {
+  color: #40514E;
+  widows: 30%;
+}
+
+p {
+  list-style: 2;
+}
+
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+.pro {
+  text-decoration: overline;
+}
+
+.Top-Container {
+  background-color: #23374d;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+background-color: #66BFBF;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 40px;
+  top:50px;
+
+}
+
+.code-image {
+  float: left;
+  margin-right: 30px;
+  width: 25%
+
+}
+
+.game-image {
+  float: right;
+  margin-left: 30px;
+  width: 25%
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+
+.myButton {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
