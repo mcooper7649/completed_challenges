@@ -1,23 +1,20 @@
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
-
+//We added an event listener to each drum button
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
-
+//this will detect mouse clicks
     var buttonInnerHTML = this.innerHTML;
-
     makeSound(buttonInnerHTML);
-
     buttonAnimation(buttonInnerHTML);
 
   });
 
 }
 
-document.addEventListener("keypress", function(event) {
-
+document.addEventListener("keydown", function(event) {
+//this will detect keyboard clicks
   makeSound(event.key);
-
   buttonAnimation(event.key);
 
 });
@@ -62,7 +59,8 @@ function makeSound(key) {
       break;
 
 
-    default: console.log(key);
+    default:
+      console.log(key);
 
   }
 }
